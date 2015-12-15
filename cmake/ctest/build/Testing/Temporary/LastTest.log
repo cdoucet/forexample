@@ -1,0 +1,18 @@
+Start testing: Dec 15 12:28 CET
+----------------------------------------------------------
+1/1 Testing: test_12_15
+1/1 Test: test_12_15
+Command: "/home/cdoucet/logiciels/forexample/cmake/ctest/test/functional/12_15.sh"
+Directory: /home/cdoucet/logiciels/forexample/cmake/ctest/build
+"test_12_15" start time: Dec 15 12:28 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_12_15" end time: Dec 15 12:28 CET
+"test_12_15" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 15 12:28 CET

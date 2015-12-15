@@ -1,4 +1,22 @@
+1. BASIC USAGE:
+
 cd build
 cmake ..
 make
 ./eigen_example
+
+2. SETTING THE VERSION OF EIGEN (example for version 3.2.5)
+
+cd build
+cmake -D EIGEN_VERSION=3.2.5 ..
+make
+./eigen_example
+
+3. PROVIDING ITS OWN EIGEN INSTALLATION
+
+cd build
+cmake -D EIGEN_INCLUDE=/my/own/path/to/eigen/include ..
+make
+./eigen_example
+
+

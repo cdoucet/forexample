@@ -1,1 +1,7 @@
 python setup.py build
+cd build/name-of-library
+python
+import wrapper
+bc1 = wrapper.BaseClass()
+bc2 = wrapper.BaseClass(bc1)
+quit()

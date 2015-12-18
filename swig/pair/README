@@ -1,0 +1,6 @@
+ c++ -c pair_wrap.cxx -I /usr/local/bibliotheques/miniconda/3.9.1/include/python3.4m/ -fPIC
+ c++ -shared pair_wrap.o -o _pair.so
+ python
+ import pair
+ a = pair.pairii(3,4)
+ a.first

@@ -1,0 +1,8 @@
+swig -python example.i
+gcc -c example.c example_wrap.c -I /usr/local/bibliotheques/miniconda/3.9.1/include/python3.4m/ -fPIC
+ld -shared example.o example_wrap.o -o _example.so
+python
+import example
+example.fact(5)
+example.my_mod(7,3)
+example.get_time()

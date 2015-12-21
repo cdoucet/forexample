@@ -1,0 +1,1 @@
+set(MYMESSAGE "hello" CACHE TYPE STRING)

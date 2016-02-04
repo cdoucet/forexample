@@ -1,0 +1,1 @@
+c hello-world.cu -L /usr/lib32 -lcudart -o hello-world

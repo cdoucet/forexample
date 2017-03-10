@@ -8,7 +8,7 @@ TARGET_LINK_LIBRARIES(main dl)
 ADD_LIBRARY(module MODULE module.cpp)
 
 IF(APPLE)
-  SET_TARGET_PROPERTIES(module PROPERTIES LINK_FLAGS "-undefined dynamic_lookup")
+  SET_TARGET_PROPERTIES(module PROPERTIES SUFFIX ".dylib" LINK_FLAGS "-undefined dynamic_lookup")
 ENDIF(APPLE)
 
 
